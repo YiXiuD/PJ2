@@ -1,0 +1,177 @@
+body{
+    background-color: rgba(146,188,212,0.56);
+}
+/*导航栏*/
+ul.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    width: 100%;
+    height: 49px;
+    overflow: visible;
+    background-color: dodgerblue;
+}
+ul.header li {
+    height: 49px;
+    display: block;
+    float: left;
+}
+ul.header li.left a {
+    display: block;
+    color: black;
+    width: 70px;
+    height: 21px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.header li.left a:hover{
+    color: #09000b;
+    background-color: #49ff82;
+}
+/*导航栏*/
+
+/*下拉菜单*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.regBtn {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 49px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    width: 140px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content  a{
+    list-style-type: none;
+    text-align: left;
+    color: black;
+    min-width: 140px;
+    height: 40px;
+    text-decoration-line: none;
+    display: block;
+}
+.dropdown-content a img{
+    padding: 0 0 0 0;
+    height: 30px;
+    width: 30px;
+    float: left;
+    overflow: hidden;
+}
+.dropdown-content a p{
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    text-align: -moz-left;
+}
+.dropdown-content a:hover {
+    cursor: pointer;
+    background-color:#4CAF50;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*下拉菜单*/
+
+
+/*主要内容*/
+h2{
+    text-align: center;
+    color: dodgerblue;
+}
+div.content{
+    padding: 20px 0 20px 0 ;
+    margin: 10px 10% 10px 10%;
+    position: relative;
+    width: 960px;
+    height: 670px;
+    overflow: hidden;
+    background-color: rgba(173,189,194,0.56);
+}
+div.content div.wrap{
+    position: absolute;
+    z-index: 1;
+    width: 960px;
+    height: auto;
+    transition: all 500ms;
+}
+ul.myCollection{
+    padding: 0;
+    width: 100%;
+}
+ul.myCollection li{
+    margin: 20px 10% 20px 10%;
+    border: black solid 2px;
+    height: 150px;
+    width: 80%;
+}
+ul.myCollection li img{
+    height: 150px;
+    width: auto;
+    float: left;
+}
+ul.myCollection li h5{
+    color: red;
+    font-size: 30px;
+}
+ul.myCollection li p{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+ul.myCollection li input{
+    margin: 5px 0px 5px 50px;
+    border: 2px solid rgba(2,4,7,0.96);
+    background-color: rgba(2,4,7,0.56);
+    color: #f1f1f1;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+ul.myCollection li input:hover{
+    background-color: rgba(2,4,7,0.96);
+}
+.changePage{
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    width: 40px;
+    height: auto;
+}
+.changePage button{
+    width: 38px;
+    height: 38px;
+    border: black 2px solid;
+    background-color: #78C3F3;
+}
+.changePage button.on{
+    background-color: #5676ff;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: #f1f1f1;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
