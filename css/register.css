@@ -1,0 +1,84 @@
+body{
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+/*背景图片尺寸*/
+
+h1{
+    margin-left: 45%;
+    width: 10%;
+    text-align: center;
+}
+/*标题*/
+div.content{
+    float: bottom;
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 30%;
+    height: 300px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.31);
+}
+div.content ul{
+    background-color: rgba(0,0,0,0);
+    float: top;
+    width: 100%;
+    height: 150px;
+}
+div.content ul li{
+    margin-bottom: 28px;
+    margin-top: 28px;
+    margin-left: 13%;
+    border: 2px solid rgba(255,255,255,0.71);
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+div.content ul li input{
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*输入框*/
+div.content input.regBtn {
+    float: top;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: rgba(255,255,255,0.81) 1px solid;
+    display: block;
+    background-color: rgba(255,255,255,0.91);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+div.content input.regBtn:hover{
+    background-color: rgba(255,202,54,0.91);
+}
+/*登录*/
+div.content a.enrBtn{
+    float: top;
+    width: 40%;
+    margin-left: 30%;
+    height: 40px;
+    border-radius: 3px;
+    border: rgba(255,255,255,0.81) 1px solid;
+    display: block;
+    background-color: rgba(255,255,255,0.91);
+    text-align: center;
+}
+div.content a.enrBtn p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+div.content a.enrBtn:hover{
+    background-color: rgba(255,202,54,0.91);
+}
+/*注册*/

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration:none
+}
+table {
+    border-collapse:0;
+    border-spacing: 0;
+}
+ul li {
+    display: block;
+}
+ol ul{
+    list-style: none;
+}
